@@ -22,7 +22,7 @@ const ComingSoonCard = () => {
 
   return (
     <Card className="gradient-card border-border/50 shadow-elegant backdrop-blur-sm animate-slide-up">
-      <div className="p-8 md:p-12 text-center">
+      <div className="p-6 md:p-8 text-center">
         {/* Logo */}
         <div className="mb-8 animate-float">
           <img 
@@ -33,18 +33,18 @@ const ComingSoonCard = () => {
         </div>
 
         {/* Main Heading */}
-        <div className="mb-8 space-y-4">
-          <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
-            Coming Soon
+        <div className="mb-6 space-y-3">
+          <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+            Website Under Construction
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Premium logistics solutions are on their way. Get ready for faster, 
-            more reliable shipping at unbeatable prices.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            We're building something amazing for you. Our new website will be launching soon 
+            with premium logistics solutions at unbeatable prices.
           </p>
         </div>
 
         {/* Features Preview */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="space-y-2">
             <div className="w-12 h-12 mx-auto bg-primary/20 rounded-lg flex items-center justify-center">
               <Clock className="w-6 h-6 text-primary" />
