@@ -112,6 +112,11 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     background: var(--gradient-hero);
+    background-image: url('/lovable-uploads/3261bab3-ac42-4a9f-b956-6d4779bdefa1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
     min-height: 100vh;
   }
 }
